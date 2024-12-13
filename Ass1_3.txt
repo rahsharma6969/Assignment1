@@ -1,0 +1,66 @@
+
+
+Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+
+
+  In JavaScript, operators are categorized based on the number of operands they work with. Here's the distinction between **unary**, **binary**, and **ternary** operators:
+
+
+
+### 1. **Unary Operators**
+- **Definition**: Operate on a single operand.
+- **Example**: `++`, `--`, `typeof`, `-`, `+`, `!`
+- **Usage**: A unary operator takes one value and performs an operation on it.
+
+**Examples:**
+  - `++x` (Increments `x` by 1)
+  - `typeof x` (Returns the type of `x`)
+  - `-x` (Negates the value of `x`)
+
+```javascript
+let x = 5;
+x++; // x becomes 6
+console.log(typeof x); // "number"
+```
+
+---
+
+### 2. **Binary Operators**
+- **Definition**: Operate on two operands.
+- **Example**: `+`, `-`, `*`, `/`, `&&`, `||`, `==`, `===`
+- **Usage**: A binary operator requires two values to perform an operation.
+
+**Examples:**
+  - `5 + 3` (Adds two numbers)
+  - `x && y` (Logical AND between `x` and `y`)
+  - `x === y` (Strict equality check)
+
+```javascript
+let x = 5, y = 3;
+console.log(x + y); // 8
+console.log(x && y); // 3 (truthy value)
+```
+
+---
+
+### 3. **Ternary Operator**
+- **Definition**: Operates on three operands and is a shorthand for an `if-else` statement.
+- **Example**: `condition ? expr1 : expr2`
+- **Usage**: A ternary operator evaluates a condition and returns one of two values based on whether the condition is `true` or `false`.
+
+**Example:**
+  - `(x > y) ? 'x is greater' : 'y is greater'` (Evaluates condition and returns corresponding string)
+
+```javascript
+let x = 5, y = 3;
+let result = (x > y) ? 'x is greater' : 'y is greater';
+console.log(result); // "x is greater"
+```
+
+---
+
+### Summary:
+- **Unary**: Works with **1 operand** (e.g., `++`, `-`).
+- **Binary**: Works with **2 operands** (e.g., `+`, `==`).
+- **Ternary**: Works with **3 operands** and has the form `condition ? expr1 : expr2`.

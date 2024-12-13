@@ -1,0 +1,48 @@
+Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+Here’s a concise summary of JavaScript operator categories:
+
+### 1. **Arithmetic Operators**
+- Perform basic math operations.
+  - `+`, `-`, `*`, `/`, `%`, `++`, `--`
+  - Example: `5 + 3` (result: 8)
+
+### 2. **Assignment Operators**
+- Assign values to variables.
+  - `=`, `+=`, `-=`, `*=`, `/=`, `%=` 
+  - Example: `x = 10`
+
+### 3. **Comparison Operators**
+- Compare values and return a boolean.
+  - `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`
+  - Example: `5 === 5` (result: true)
+
+### 4. **Logical Operators**
+- Perform logical operations on boolean values.
+  - `&&`, `||`, `!`
+  - Example: `true && false` (result: false)
+
+### 5. **Unary Operators**
+- Operate on a single operand.
+  - `+`, `-`, `typeof`, `delete`
+  - Example: `typeof 5` (result: "number")
+
+### 6. **Bitwise Operators**
+- Manipulate individual bits.
+  - `&`, `|`, `^`, `<<`, `>>`
+  - Example: `5 & 3` (result: 1)
+
+### 7. **Ternary (Conditional) Operator**
+- Shorthand for if-else.
+  - `condition ? expr1 : expr2`
+  - Example: `5 > 3 ? 'Yes' : 'No'` (result: "Yes")
+
+### 8. **Spread and Rest Operators**
+- Spread: `...` expands elements; Rest: `...` collects arguments.
+  - Example: `let arr = [...[1, 2], 3]` (result: [1, 2, 3])
+
+### 9. **Relational Operators**
+- Check relationships between operands.
+  - `instanceof`, `in`
+  - Example: `'name' in obj` (result: true)
